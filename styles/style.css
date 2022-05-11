@@ -29,7 +29,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #04dc45;
-    box-shadow:  0px 0px 20px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
     z-index: 69;
 }
 
@@ -38,7 +38,7 @@ main {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 p {
@@ -46,10 +46,11 @@ p {
 }
 
 a {
-    text-decoration : none;
+    text-decoration: none;
 }
 
-a, a * {
+a,
+a * {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -187,35 +188,42 @@ a, a * {
 }
 
 .yellow-dark-back-hover:hover {
-    background-color:#fccd15 ;
+    background-color: #fccd15;
 }
 
 .brown-back {
-    background-color:#c6a05ba4;
+    background-color: #c6a05ba4;
 }
 
 .brown-dark-back-hover:hover {
-    background-color:#684900 ;
+    background-color: #684900;
 }
 
 /** Specs **/
-.header-icon, .arrow-icon {
+.header-icon,
+.arrow-icon {
     width: 50px;
     height: 50px;
 }
 
-.header-icon.right-icon, .arrow-icon.right-icon {
-    margin-left: 40px;
+.header-icon.right-icon,
+.arrow-icon.right-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 
-.header-icon.left-icon, .arrow-icon.left-icon {
-    margin-right: 40px;
+.header-icon.left-icon,
+.arrow-icon.left-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px
 }
 
 .home-icon {
-   position: absolute;
-   left: 30px;
-   height: 40px;
+    position: fixed;
+    left: 10px;
+    height: 40px;
 }
 
 .zonasse-container {
@@ -228,6 +236,7 @@ a, a * {
     background-color: #948d9e;
     box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
     padding: 30px;
+    margin: 10px;
 }
 
 .zonasse:hover {
@@ -254,14 +263,16 @@ a, a * {
     color: white;
 }
 
-.recolt-button, .tentative-button {
+.recolt-button,
+.tentative-button {
     background-color: #958AA8;
     box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
     padding: 30px;
-    max-width: 300px;
+    margin: 15px;
 }
 
-.recolt-button:hover, .tentative-button:hover { 
+.recolt-button:hover,
+.tentative-button:hover {
     transform: scale(1.02);
 }
 
@@ -274,8 +285,9 @@ a, a * {
     font-size: 2em;
 }
 
-p[data-type="citation"], p[data-type="context"]{
+p[data-type="citation"],
+p[data-type="context"] {
     text-align: center;
     margin: 15px;
     max-width: 1000px;
-} 
+}
